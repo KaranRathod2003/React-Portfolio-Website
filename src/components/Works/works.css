@@ -1,0 +1,39 @@
+#works {
+    margin: 0 auto;
+    min-height: calc(100ch - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.worksTitle {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.worksdisc {
+    font-weight: 200;
+    font-size: small;
+    max-width: 45rem;
+}
+
+.worksImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-wrap: wrap;
+    max-width: 65rem;
+}
+
+.worksImg {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.8rem;
+}
